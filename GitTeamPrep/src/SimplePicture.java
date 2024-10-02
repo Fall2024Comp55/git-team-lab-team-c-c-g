@@ -14,9 +14,9 @@ public class SimplePicture extends GraphicsProgram {
 		GImage robot = new GImage("robot.png", 200, 100);
 		add(robot);
 <<<<<<< HEAD
-		GLabel label = new GLabel("Step: 7 Test", 200, 400);
+		GLabel label = new GLabel("Step: 7 Test ", 200, 400);
 =======
-		GLabel label = new GLabel("Hw I feel when using github hackslash", 200, 400);
+		GLabel label = new GLabel("Hw I feel when using github hackslash/meelaud", 200, 400);
 >>>>>>> branch 'main' of https://github.com/Fall2024Comp55/git-team-lab-team-c-c-g.git
 		add(label);
 	}
