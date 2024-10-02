@@ -2,8 +2,10 @@ import acm.graphics.GImage;
 //comment1
 //comment2
 import acm.graphics.GLabel;
-import acm.program.GraphicsProgram;
+import acm.program.GraphicsProgram; 
+
 public class SimplePicture extends GraphicsProgram {
+	private static final String IMAGE_NAME ="robot.png";
 	public static int SIZE = 700;
 	
 	public void init() {
@@ -11,7 +13,7 @@ public class SimplePicture extends GraphicsProgram {
 	}
 	
 	public void run() {
-		GImage robot = new GImage("robot.png", 200, 100);
+		final GImage robot = new GImage("robot.png", 200, 100);
 		add(robot);
 <<<<<<< HEAD
 		GLabel label = new GLabel("Step: 7 Test", 200, 400);
